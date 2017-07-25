@@ -14,6 +14,7 @@ def test_multiply():
     assert fcm.math.multiply(1, 2) == 2
     assert fcm.math.multiply(3, 2) == 6
     assert np.allclose(fcm.math.multiply(2.4, 6.9), 16.56)
+    assert fcm.math.multiply(1, 0) == 0
 
 def test_subtract():
     assert fcm.math.subtract(10, 8) == 2
