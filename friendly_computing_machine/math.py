@@ -29,7 +29,7 @@ def divide(A, B):
     Function for dividing a value A by a value B.
     Always uses foating point division!
     """
-    return A / B
+    return float(A) / float(B)
 
 def int_division(A, B):
     """
